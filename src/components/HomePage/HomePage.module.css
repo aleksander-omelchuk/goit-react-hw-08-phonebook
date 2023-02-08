@@ -1,0 +1,9 @@
+.section__home {
+    min-height: 100vh;
+    text-align: center;
+    color: var(--dark-txt-color);
+}
+
+.home__title {
+    font-size: 42px;
+}

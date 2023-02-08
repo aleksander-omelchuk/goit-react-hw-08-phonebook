@@ -1,0 +1,30 @@
+.homenav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.homenav__link{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    min-width: 120px;
+    min-height: 40px;
+    font-family: inherit;
+    font-size: 18px;
+    line-height: inherit;
+    font-weight: 700;
+    border: none;
+    color: var(--main-txt-color);
+    border-radius: 4px;
+    background-color: var(--btn-bg-color);
+    box-shadow: var(--btn-shadow);
+    transition: background-color var(--main-animation);
+}
+
+.homenav__link:hover,
+.homenav__link:focus {
+    background-color: var(--btn-hover-bg-color);
+}

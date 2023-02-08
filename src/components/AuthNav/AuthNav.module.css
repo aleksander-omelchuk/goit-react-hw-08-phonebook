@@ -1,0 +1,12 @@
+.link{
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px;
+    font-weight: 700;
+    color: var(--main-txt-color);
+    transition: color var(--main-animation);
+}
+
+.link:hover {
+    color: #b9b9b9;
+}

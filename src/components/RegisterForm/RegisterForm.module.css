@@ -1,0 +1,31 @@
+.register__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* .register__form:hover {
+    border-color: tomato;
+
+} */
+
+.register__btn {
+    min-width: 120px;
+    min-height: 40px;
+    font-family: inherit;
+    font-size: 18px;
+    line-height: inherit;
+    font-weight: 700;
+    border: none;
+    color: var(--main-txt-color);
+    border-radius: 4px;
+    background-color: var(--btn-bg-color);
+    box-shadow: var(--btn-shadow);
+    transition: background-color var(--main-animation);
+}
+
+.register__btn:hover,
+.register__btn:focus {
+    background-color: var(--btn-hover-bg-color);
+}

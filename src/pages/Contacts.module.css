@@ -1,0 +1,4 @@
+.contacts__container{
+   min-height: 100vh;
+   color: var(--dark-txt-color);
+}

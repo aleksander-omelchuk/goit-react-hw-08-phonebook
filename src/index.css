@@ -1,0 +1,81 @@
+@import-normalize; /* bring in normalize.css styles */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  font-size: 20px;
+  line-height: 1.88;
+  color: var(--main-txt-color);
+  background-color: var(--main-bg-color);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-style: normal;
+  color: currentColor;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: 100%;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+:root{
+  --header-bg-color: #24292f;
+  --main-txt-color: #e2e2e2;
+  --light-txt-color: #ffffff;
+  --dark-txt-color: #000000;
+  --txt-hover: #b9b9b9;
+  --active-txt-color: #f06f06;
+  --main-bg-color:#e7ecf2;
+  --btn-bg-color: #24292f;
+  --btn-hover-bg-color: #454545;
+  --border-color: #2196f3;
+  --box-shadow: 0 0 50px 5px #000000;
+  --btn-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  --main-animation: 250ms cubic-bezier(0.4, 0, 0.2, 1)
+}
+
+.section {
+  padding-bottom: 60px;
+}
+
+.active {
+  color: var(--active-txt-color);
+}
+
+.inactive{
+    color: inherit;
+}
